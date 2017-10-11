@@ -1,0 +1,159 @@
+https://s3-eu-west-1.amazonaws.com/codeclub-html-images/images.html
+
+
+------
+
+[1]
+
+<!DOCTYPE html>
+
+<html>
+<head></head>
+<body></body>
+</html>
+
+------
+
+[2]
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Story</title>
+</head>
+<body>
+ <div>
+		<img src="boy.png" alt="boy" height="200" width="70">
+		<p>More text here!</p>
+ </div>
+  <div>
+		<img src="boy.png">
+		<p>More text here!</p>
+ </div>
+</body>
+</html>
+
+------
+
+[3]
+
+<! put this in style.css 
+
+body {
+  background-color:  #aed6f1 ;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+div {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin: 2px;
+  background-color: #fef9e7;
+  width: 170px;
+  height: 170px;
+  border: 2px solid black;
+}
+p {
+  position: absolute;
+  background: white;
+  bottom: -1em;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  padding: 5px;
+  margin-right: -2px;
+  font-size: 10pt;
+}
+img {
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Story</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div>
+		<img src="boy.png" alt="boy" height="200" width="70">
+		<p>More text here!</p>
+ </div>
+  <div>
+		<img src="boy.png">
+		<p>More text here!</p>
+ </div>
+</body>
+</html>
+
+------
+
+[4]
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Story</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>A Joke...</h2>
+  <div>
+		<img src="boy.png">
+		<p>Knock knock</p>
+  </div>
+  <div>
+		<img src="girl.png">
+		<p>Who's there?</p>
+  </div>
+</body>
+</html>
+
+------
+
+[4]
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Story</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>A Joke...</h2>
+  <div>
+		<img src="boy.png">
+		<p>Knock knock</p>
+  </div>
+  <div>
+		<img src="girl.png">
+		<p>Who's there?</p>
+  </div>
+  <div>
+		<img src="boy.png">
+		<p>Hatch</p>
+  </div>
+  <div>
+		<img src="girl.png">
+		<p>Hatch who?</p>
+  </div>
+  <div>
+		<img src="boy.png">
+		<p>Bless you!</p>
+  </div>
+  <div>
+		<img src="girl.png">
+		<p>...</p>
+  </div>
+</body>
+</html>
+
+------
+------
+
+
